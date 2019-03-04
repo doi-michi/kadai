@@ -12,7 +12,6 @@
     </h2>
     <?php echo $_POST['message'];?>
 
-
     <form method="post" action="post.php">
       <p><label>Name<br>
         <input type="text" name="name" placeholder="ニックネームを入力">

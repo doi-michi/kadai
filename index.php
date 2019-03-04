@@ -5,6 +5,7 @@
     <title>keijiban</title>
   </head>
 
+
   <body>
     <h1>１人掲示板</h1>
     <h2>１回だけ投稿できます。</h2>
