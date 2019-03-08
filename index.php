@@ -5,20 +5,25 @@
     <title>keijiban</title>
   </head>
 
-
   <body>
     <h1>１人掲示板</h1>
-    <h2>１回だけ投稿できます。</h2>
-
-    <form method="post" action="post.php">
-      <p><label>Name<br>
-        <input type="text" name="name" placeholder="ニックネームを入力">
+    <?php
+    if (isset($_GET['name']) === TRUE) {
+      echo $_GET["name"],"さんの投稿";
+      echo $_GET["message"];
+    }else{
+      echo "<h2>１回だけ投稿できます。</h2>";
+  }
+    ?>
+    <form method="get" >
+      <p><label for ="namae">Name<br>
+        <input type="text" name="name" id="namae" placeholder="ニックネームを入力">
       </p>
-      <p><label>Message<br>
-        <input type="text" name="message" placeholder="メッセージを入力">
+      <p><label for ="messages">Message<br>
+        <input type="text" name="message" id="messages" placeholder="メッセージを入力">
       </p>
       <input type="submit" value="送信する">
     </form>
-    <button type="button" onclick="history.back()">戻る</button>
+    
   </body>
 </html>
