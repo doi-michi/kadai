@@ -9,7 +9,7 @@
     <h1>１人掲示板</h1>
     <?php
     if (isset($_GET['name']) === TRUE) {
-      echo $_GET["name"],"さんの投稿";
+      echo $_GET["name"],"さんの投稿<br />";
       echo $_GET["message"];
     }else{
       echo "<h2>１回だけ投稿できます。</h2>";
