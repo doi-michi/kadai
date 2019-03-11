@@ -19,7 +19,7 @@
       <p><label for ="namae">Name<br></label>
         <input type="text" name="name" id="namae" placeholder="ニックネームを入力">
       </p>
-      <p><label for ="messages">Message<br><>
+      <p><label for ="messages">Message<br></label>
         <input type="text" name="message" id="messages" placeholder="メッセージを入力">
       </p>
       <input type="submit" value="送信する">
