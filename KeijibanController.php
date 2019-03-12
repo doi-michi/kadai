@@ -17,8 +17,6 @@ class KeijibanController extends Controller
            'msg'=>$msg,
        ];
 
-    
-
        return view('keijibanlara.index',$data);
    }
 }
