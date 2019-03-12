@@ -11,8 +11,6 @@
     @endisset
 
 
-
-
     <form method="POST" action="/keijibanlara">
       {{csrf_field() }}
 
