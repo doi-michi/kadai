@@ -15,7 +15,7 @@ class KeijibanController extends Controller
        $data =[
            'name'=>$name.'さんの投稿です。',
            'msg'=>$msg,
-       ];gi
+       ];
 
        return view('keijibanlara.index',$data);
    }
