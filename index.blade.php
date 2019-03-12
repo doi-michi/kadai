@@ -8,7 +8,7 @@
     <p>{{$msg}}</p>
     @else
     <p>１回だけ投稿できます。</p>
-    @endisset
+    @endissetgit remote add origin https://github.com//awesome.git
 
 
     <form method="POST" action="/keijibanlara">
